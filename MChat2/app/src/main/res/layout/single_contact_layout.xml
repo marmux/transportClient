@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/single_contact_layout_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+    android:weightSum="1"
+    android:id="@+id/single_contact_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <ImageButton
+        android:id="@+id/imgDriver"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/driver"
+     />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Large Text"
+        android:id="@+id/contactTextView"
+        android:textColor="@android:color/primary_text_light"
+        android:background="@drawable/bg_key"
+        />
+
+    </LinearLayout>
+</LinearLayout>
